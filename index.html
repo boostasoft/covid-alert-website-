@@ -1,0 +1,699 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167508393-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-167508393-2');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="author" content="Boostasoft">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>COVID Alert App</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <meta property="og:url"                content="https://www.covidalertapp.com/" />
+    <meta property="og:title"              content="COVID 19 Alert App" />
+    <meta property="og:description"        content="An app to fight against corona virus." />
+    <meta property="og:image"              content="/images/apple-touch-icon.png" />
+    <meta property="og:local"              content="fr_FR" />
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--
+    	Donations
+    <script type="text/javascript" defer src="https://donorbox.org/install-popup-button.js"></script>
+    <script>window.DonorBox = { widgetLinkClassName: 'dbox-donation-button' }</script> -->
+</head>
+
+<body data-spy="scroll" data-target=".mainmenu-area">
+    <!-- Preloader-content -->
+    <div class="preloader">
+        <span><i class="lnr lnr-sun"></i></span>
+    </div>
+    <!-- MainMenu-Area -->
+    <nav class="mainmenu-area" data-spy="affix" data-offset-top="200">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="primary_menu">
+                <ul class="nav navbar-nav mainmenu">
+                    <li class="active"><a href="#home_page">Acceuil</a></li>
+                    <li><a href="#about_page">À propos</a></li>
+                    <li><a href="#features_page">Fonctionnalités</a></li>
+                    <li><a href="#gallery_page">Galerie</a></li>
+                    <!--<li><a href="#price_page">Pricing</a></li>-->
+                    <li><a href="#questions_page">FAQ</a></li>
+                    <!--<li><a href=class="dbox-donation-button""blog.html">Blog</a></li>-->
+                    <li><a href="#contact_page">Contact</a></li>
+                </ul>
+                <!--<div class="right-button hidden-xs">
+                    <a href="https://donorbox.org/covid-alert-app-support" class="dbox-donation-button" >Donation&nbsp;<span class="lnr lnr-heart"></span></a>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+    <!-- MainMenu-Area-End -->
+    <!-- Home-Area -->
+    <header class="home-area overlay" id="home_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 hidden-sm col-md-5">
+                    <figure class="mobile-image wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="images/header-mobile.png" alt="">
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                    <div class="space-80 hidden-xs"></div>
+                    <h1 class="wow fadeInUp" data-wow-delay="0.4s">Informez-vous sur les effets du COVID-19 dans votre pays grâce à COVID Alert.</h1>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>Le télévision, la radio et certaines applications web et mobiles  sont des bonnes sources d'informations mais ne diffusent  pas des statistiques précises à la demande. L'application COVID Alert a été conçue  pour combler ce vide.</p>
+                    </div>
+                    <div class="space-20"></div>
+                    <a href="apk/boostasoft-covidAlert-1.0.apk" class="bttn-white wow fadeInUp" data-wow-delay="0.8s"><i class="lnr lnr-download"></i>Télécharger APK</a>
+                    <a href="https://donorbox.org/covid-alert-app-support" class="dbox-donation-button bttn-white wow fadeInUp" >Donation&nbsp;<span class="lnr lnr-heart"></span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Home-Area-End -->
+    <!-- About-Area -->
+    <section class="section-padding" id="about_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-10 col-md-offset-1">
+                    <div class="page-title text-center">
+                        <img src="images/about-logo.png" alt="About Logo">
+                        <div class="space-20"></div>
+                        <h5 class="title">A propos de covid Alert</h5>
+                        <div class="space-30"></div>
+                        <h3 class="red-color">Une belle application  dévéloppée pour donner des statistiques sûres et fiables.</h3>
+                        <div class="space-20"></div>
+                        <p>COVID Alert tire ses statistiques de <a href="https://www.who.int/fr" target="_blank">OMS (Organisation Mondiale de la Santé) </a>, une organisation mondialement reconnue qui met à la disposition de tous, les données de la pandémie (COVID-19)  remontées par les pays touchés
+ <!--a target="_blank" href="https://about-corona.net">source</a-->
+.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About-Area-End -->
+    <!-- Progress-Area -->
+    <section class="progress-area gray-bg" id="progress_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="page-title section-padding">
+                        <h5 class="title wow fadeInUp" data-wow-delay="0.2s">Objectifs de COVID Alert</h5>
+                        <div class="space-10"></div>
+                        <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">Sensibiliser et Informer</h3>
+                        <div class="space-20"></div>
+                        <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                            <p>COVID Alert est une excellente application pour s'informer sur le virus corona et prendre des mesures. Nous prévoyons de développer d'autres fonctionnalités et vous serez régulièrement informé si vous vous abonnez à notre newsletter.</p>
+                        </div>
+                        <div class="space-50"></div>
+                        <a href="#features_page" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">En Savoir Plus</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <figure class="mobile-image">
+                        <img src="images/progress-phone.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Progress-Area-End -->
+    <!-- Video-Area 
+    <section class="video-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="video-photo">
+                        <img src="images/video-image.jpg" alt="">
+                        <a href="https://www.youtube.com/watch?v=ScrDhTsX0EQ" class="popup video-button">
+                            <img src="images/play-button.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-5 col-md-offset-1">
+                    <div class="space-60 hidden visible-xs"></div>
+                    <div class="page-title">
+                        <h5 class="title wow fadeInUp" data-wow-delay="0.2s">VIDEO FEATURES</h5>
+                        <div class="space-10"></div>
+                        <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">Grat Application Ever</h3>
+                        <div class="space-20"></div>
+                        <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor incididunt ut labore et laborused sed do eiusmod tempor incididunt ut labore et laborused.</p>
+                        </div>
+                        <div class="space-50"></div>
+                        <a href="#" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">En Savoir Plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <!-- Video-Area-End -->
+    <!-- Feature-Area -->
+    <section class="feature-area section-padding-top" id="features_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="page-title text-center">
+                        <h5 class="title">Fonctionnalités</h5>
+                        <div class="space-10"></div>
+                        <h3>Nos modestes fonctionnalités</h3>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-rocket"></i>
+                        </div>
+                        <h4>Rapide &amp; Puissant</h4>
+                        <p>Dévéloppé avec 
+                       <!--a href="https://reactnative.dev/">react native</a--> le meilleur framework multi-plateforme utilisé actuellement  dans la communauté du dévéloppement mobile.</p>
+                    </div>
+                    <div class="space-60"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-users"></i>
+                        </div>
+                        <h4>Simple</h4>
+                        <p>Nous avons tenu à garder l'application simple pour faciliter son utilisation au plus grand nombre d'utilisateurs.</p>
+                    </div>
+                    <div class="space-60"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-funnel"></i>
+                        </div>
+                        <h4>Filtres adéquats</h4>
+                        <p>Grâce à COVID Alert, vous pouvez à présent suivre en temps réel  la progression du covid dans le monde et les trier par pays, nombre de morts, guérisons ou décès</p>
+                    </div>
+                    <div class="space-60"></div>
+                </div>
+                <div class="hidden-xs hidden-sm col-md-4">
+                    <figure class="mobile-image">
+                        <img src="images/feature-image.png" alt="Feature Photo">
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                   
+                        <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-smartphone"></i>
+                        </div>
+                        <h4>Parfaitement Responsive</h4>
+                        <p>COVID Alert est toujours aussi convivial sur tous les écrans de portables.</p>
+                    </div>
+                        
+                    <div class="space-60"></div>
+                     <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="box-icon">
+                            <i class="lnr lnr-pie-chart"></i>
+                        </div>
+                        <h4>Statistiques précises</h4>
+                        <p>Les données que nous vous fournissons proviennent de sources fiables (<a href="https://www.who.int/fr" target="_blank">OMS</a>).</p>
+                    </div>
+                    <div class="space-60"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-earth"></i>
+                        </div>
+                        <h4>Disponible en deux langues. (anglais &amp; français)</h4>
+                        <p>L'application  détecte la langue par défaut de votre téléphone pour savoir la langue à laquelle, il devra (anglais ou français) s'afficher.</p>
+                    </div>
+                    <div class="space-60"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Feature-Area-End -->
+    <!-- Testimonial-Area 
+    <section class="testimonial-area" id="testimonial_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-title text-center">
+                        <h5 class="title">Testimonials</h5>
+                        <h3 class="dark-color">Our Client Loves US</h3>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="team-slide">
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-1.png" alt="">
+                            </div>
+                            <h4>Ashekur Rahman</h4>
+                            <h6 class="position">Art Dirrector</h6>
+                            <p>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</p>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-2.jpg" alt="">
+                            </div>
+                            <h4>Ashekur Rahman</h4>
+                            <h6 class="position">Art Dirrector</h6>
+                            <p>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</p>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-3.jpg" alt="">
+                            </div>
+                            <h4>Ashekur Rahman</h4>
+                            <h6 class="position">Art Dirrector</h6>
+                            <p>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</p>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-1.png" alt="">
+                            </div>
+                            <h4>Ashekur Rahman</h4>
+                            <h6 class="position">Art Dirrector</h6>
+                            <p>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</p>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-2.jpg" alt="">
+                            </div>
+                            <h4>Ashekur Rahman</h4>
+                            <h6 class="position">Art Dirrector</h6>
+                            <p>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</p>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-3.jpg" alt="">
+                            </div>
+                            <h4>Ashekur Rahman</h4>
+                            <h6 class="position">Art Dirrector</h6>
+                            <p>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- Testimonial-Area-End -->
+    <!-- Gallery-Area -->
+    <section class="gallery-area section-padding" id="gallery_page">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-7 gallery-slider">
+                    <div class="gallery-slide">
+                        <div class="item"><img src="images/gallery-1.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-2.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-3.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-5.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-4.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-1.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-2.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-3.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-5.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-4.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-5 col-lg-3">
+                    <div class="page-title">
+                        <h5 class="white-color title wow fadeInUp" data-wow-delay="0.2s">Quelques captures d'écrans</h5>
+                        <div class="space-10"></div>
+                        <h3 class="white-color wow fadeInUp" data-wow-delay="0.4s">Captures d'écrans de COVID Alert</h3>
+                    </div>
+                    <div class="space-50"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery-Area-End -->
+    <!--Questions-Area -->
+    <section id="questions_page" class="questions-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-title text-center">
+                        <h5 class="title">FAQ</h5>
+                        <h3 class="dark-color">Avez vous des questions?</h3>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="toggole-boxs">
+                        <h3>Qu’est-ce qu’un coronavirus ?</h3>
+                        <div>
+                            <p>Les coronavirus forment une vaste famille de virus qui peuvent être pathogènes chez l’animal ou chez l’homme. On sait que, chez l’être humain, plusieurs coronavirus peuvent entraîner des infections respiratoires dont les manifestations vont du simple rhume à des maladies plus graves comme le syndrome respiratoire du Moyen-Orient (MERS) et le syndrome respiratoire aigu sévère (SRAS)</p>
+                        </div>
+                        <h3>Quels sont les symptômes de la COVID-19 ?</h3>
+                        <div>
+                            <p>Les symptômes les plus fréquents de la ‎COVID-19 sont la fièvre, la toux sèche et la ‎fatigue. D’autres symptômes moins courants ‎peuvent également apparaître chez ‎certaines personnes, comme des ‎courbatures et des douleurs, une congestion ‎nasale, des maux de tête, une conjonctivite, ‎des maux de gorge, une diarrhée, une perte ‎du goût ou de l’odorat, une éruption ‎cutanée ou une décoloration des doigts de la ‎main ou du pied.</p>
+                        </div>
+                        <h3>Que faire en cas de symptômes de la COVID-19 et quand dois-je consulter un médecin?</h3>
+                        <div>
+                            <p>En cas de symptômes discrets, par exemple une toux ou une fièvre légère, il n’est généralement pas nécessaire de consulter un médecin. Restez chez vous, isolez-vous et surveillez l’évolution des symptômes. Suivez les instructions nationales en matière d’auto-isolement.</p>
+                        </div>
+                        <h3>Comment la COVID-19 se propage-t-elle ?</h3>
+                        <div>
+                            <p>La COVID-19 est transmise par des personnes porteuses du virus. La maladie se transmet principalement d’une personne à l’autre par le biais de gouttelettes respiratoires expulsées par le nez ou par la bouche lorsqu’une personne malade tousse, éternue ou parle. Ces gouttelettes sont relativement lourdes, ne parcourent pas de grandes distances et tombent rapidement au sol. Il est possible de contracter la COVID-19 en cas d’inhalation de ces gouttelettes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="space-20 hidden visible-xs"></div>
+                    <div class="toggole-boxs">
+                        <h3>En quoi COVID Alert est-il utile? </h3>
+                        <div>
+                            <p>Grace COVID Alert, Vous aurez des statistiques en temps réel qui vous permettra de savoir la situation de votre pays face au COVID-19 et d'organiser vos deplacements ou voyages pendant le déconfinement.</p>
+                        </div>
+                        <h3>Quelle est la prochaine étape ?</h3>
+                        <div>
+                            <p>Améliorer l'application et y ajouter de plus en plus de fonctionalistés qui nous permettront de lutter plus efficacement contre les maladies telles que le COVID-19.</p>
+                        </div>
+                        <h3>Comment puis-je vous contacter? </h3>
+                        <div>
+                            <p>Nos coordonnées sont inscrites ci-après de la page. <a href="#contact_page">Cliquez ici</a> pour y accéder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Questions-Area-End -->
+    <!-- How-To-Use
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="page-title">
+                        <h5 class="title wow fadeInUp" data-wow-delay="0.2s">Lutte contre le covid-19</h5>
+                        <div class="space-10"></div>
+                        <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">Comment lutter contre le covid?</h3>
+                    </div>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>Chaque citoyen à d'abord la responsabilité de son entourage et il est primordial pour lui de garantir leur sécurité  en utilisant un masque de protection faciale qui devra au préalable respecter au minimun  les normes définies par des organismes sanitaires reconnus.</p>
+                    </div>
+                    <div class="space-50"></div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
+                    <div class="space-60 hidden visible-xs"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-home"></i>
+                        </div>
+                        <h4>Restez le plus longtemps possible chez vous.</h4>
+                    </div>
+                    <div class="space-50"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-hand"></i>
+                        </div>
+                        <h4>Minimizer le contact humain.</h4>
+                    </div>
+                    <div class="space-50"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-hourglass"></i>
+                        </div>
+                        <h4>Soyez patient pendant votre confinement.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- How-To-Use-End -->
+    <!-- Download-Area -->
+    <div class="download-area overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 hidden-sm">
+                    <figure class="mobile-image">
+                        <img src="images/download-image.png" alt="">
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-md-6 section-padding">
+                    <h3 class="white-color">Télercharger l'APK</h3>
+                    <div class="space-20"></div>
+                    <p>Uniquement disponible sur la platforme ANDROID.</p>
+                    <div class="space-60"></div>
+                    <a href="apk/boostasoft-covidAlert-1.0.apk " class="bttn-white wow fadeInUp" data-wow-delay="0.8s"><i class="lnr lnr-download"></i>Télercharger APK</a>
+
+                    <!--<a href="#" class="bttn-white sq"><img src="images/apple-icon.png" alt="apple icon"> Apple Store</a>
+                    <a href="#" class="bttn-white sq"><img src="images/play-store-icon.png" alt="Play Store Icon"> Play Store</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Download-Area-End -->
+    <!--Price-Area 
+    <section class="section-padding price-area" id="price_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-title text-center">
+                        <h5 class="title">Pricing Plan</h5>
+                        <h3 class="dark-color">Our Awesome Pricing Plan</h3>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-box">
+                        <div class="price-header">
+                            <div class="price-icon">
+                                <span class="lnr lnr-rocket"></span>
+                            </div>
+                            <h4 class="upper">Free</h4>
+                        </div>
+                        <div class="price-body">
+                            <ul>
+                                <li>Easy Installations</li>
+                                <li>Unlimited support</li>
+                                <li>Uniqe Elements</li>
+                            </ul>
+                        </div>
+                        <div class="price-rate">
+                            <sup>&#36;</sup> <span class="rate">0</span> <small>/Month</small>
+                        </div>
+                        <div class="price-footer">
+                            <a href="#" class="bttn-white">Purchase</a>
+                        </div>
+                    </div>
+                    <div class="space-30 hidden visible-xs"></div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-box">
+                        <div class="price-header">
+                            <div class="price-icon">
+                                <span class="lnr lnr-diamond"></span>
+                            </div>
+                            <h4 class="upper">Medium</h4>
+                        </div>
+                        <div class="price-body">
+                            <ul>
+                                <li>Easy Installations</li>
+                                <li>Unlimited support</li>
+                                <li>Free Forever</li>
+                            </ul>
+                        </div>
+                        <div class="price-rate">
+                            <sup>&#36;</sup> <span class="rate">49</span> <small>/Month</small>
+                        </div>
+                        <div class="price-footer">
+                            <a href="#" class="bttn-white">Purchase</a>
+                        </div>
+                    </div>
+                    <div class="space-30 hidden visible-xs"></div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-box">
+                        <div class="price-header">
+                            <div class="price-icon">
+                                <span class="lnr lnr-pie-chart"></span>
+                            </div>
+                            <h4 class="upper">Business</h4>
+                        </div>
+                        <div class="price-body">
+                            <ul>
+                                <li>Easy Installations</li>
+                                <li>Unlimited support</li>
+                                <li>Free Forever</li>
+                            </ul>
+                        </div>
+                        <div class="price-rate">
+                            <sup>&#36;</sup> <span class="rate">99</span> <small>/Month</small>
+                        </div>
+                        <div class="price-footer">
+                            <a href="#" class="bttn-white">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!--Price-Area-End -->
+    <!-- Subscribe-Form -->
+    <div class="subscribe-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="subscribe-form text-center">
+                        <h3 class="red-color">Soyez notifiés des nouvelles fonctionnalités de COVID Alert</h3>
+                        <div class="space-20"></div>
+                        <form id="mc-form" action="https://boostasoft.us18.list-manage.com/subscribe/post?u=4c1bdce30cdd920072823b912&amp;id=a86f5280d2" method="post">
+                            <input type="email" class="control" placeholder="Entrez votre email" required="required" id="mc-email">
+                            <button class="bttn-white active" type="submit"><span class="lnr lnr-location"></span> Souscrire</button>
+                            <label class="mt10" for="mc-email"></label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Subscribe-Form-Area -->
+    <!-- Footer-Area -->
+    <footer class="footer-area" id="contact_page">
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-title text-center">
+                            <h5 class="title">Contactez nous</h5>
+                            <h3 class="dark-color">Trouvez-nous grâce aux coordonnées suivantes</h3>
+                            <div class="space-60"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <!--<div class="col-xs-12 col-sm-4">
+                        div class="footer-box">
+                            <div class="box-icon">
+                                <span class="lnr lnr-map-marker"></span>
+                            </div>
+                            <p>2 RUE GABRIEL PERI<br/>
+                            95120 ERMONT<br/>
+                            France
+                        </p>
+                        </div
+                    </div>-->
+                   <!-- <div class="col-xs-12 col-sm-4">
+                        <div class="footer-box">
+                            <div class="box-icon">
+                                <span class="lnr lnr-phone-handset"></span>
+                            </div>
+                            <p><a tel="+33 761440523">+33 761440523</a></p>
+                        </div>
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>-->
+                    <div class="col-xs-12 col-sm-4">
+                        <!--To center the second item-->
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="footer-box">
+                            <div class="box-icon">
+                                <span class="lnr lnr-envelope"></span>
+                            </div>
+                            <p><a href="mailto:boostasoft@covidalertapp.com">boostasoft@covidalertapp.com</a>
+                                <br />
+                                <a href="mailto:contact@boostasoft.com">contact@boostasoft.com</a>
+                              </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-Bootom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-xs-12 col-md-12 text-center">
+
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits réservés  <a href="https://boostasoft.com" target="_blank"> à Boostasoft</a></span>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                        <div id="share">
+
+  <!-- facebook -->
+  <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.covidalertapp.com" target="blank"><i class="fa fa-facebook"></i></a>
+
+  <!-- twitter -->
+  <a class="twitter" href="https://twitter.com/home?status=https://www.covidalertapp.com Une appli qui donne des statistiques sur le covid-19 en temps réel." target="blank"><i class="fa fa-twitter"></i></a>
+
+  <!-- linkedin -->
+  <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.covidalertapp.com&title=COVID Alert App&summary=Une appli qui donne des statistiques sur le covid-19 en temps réel.&source=" target="blank"><i class="fa fa-linkedin"></i></a>
+  
+  <!-- pinterest -->
+  <a class="pinterest" href="https://pinterest.com/pin/create/button/?url=https://www.covidalertapp.com&media=https://www.covidalertapp.com/images/header-mobile.png&description=Un appli qui donne des statisques sur le covid-19 en temps réel." target="blank"><i class="fa fa-pinterest-p"></i></a>
+
+  <!-- whatsapp -->
+  <a class="whatsapp" href="whatsapp://send?text=Regarde cet application sur le covid-19 https://www.covidalertapp.com" data-action="share/whatsapp/share" target="blank"><i class="fa fa-whatsapp"></i></a>
+  
+</div>
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-Bootom-End -->
+    </footer>
+    <!-- Footer-Area-End -->
+    <!--Vendor-JS-->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/jquery-ui.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!--Plugin-JS-->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/ajaxchimp.js"></script>
+    <script src="js/scrollUp.min.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!--Main-active-JS-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
